@@ -61,5 +61,9 @@ gem 'guard-minitest'
 gem 'rails-controller-testing'
 end
 
+group :production do 
+  gem 'pg'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
