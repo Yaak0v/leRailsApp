@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'rexml'
+gem 'active_storage_validations', '0.8.9' 
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
